@@ -25,7 +25,7 @@ Definitions
 Article 2  
 Scope of Application  
 
-1. This Framework applies to all instruments adopted by OIDI organs after 1 February 2026.
+1. This Framework applies to all instruments adopted by OIDI organs after 1 February 2026.  
 2. Instruments predating this Framework shall be retrofitted with IOID IDs by the Office of Legal Affairs by 31 December 2026.  
 
 CHAPTER 2  
@@ -55,26 +55,26 @@ Identifier System
    a. S = Sector code (one digit, per Article 3);  
    b. YYYY = Calendar year of adoption (four digits);  
    c. T = Type code (one uppercase letter from {A-H, J, K, M, N, P-T, V-Z});  
-   d. SSSSSS = Six-character sequence (alphanumeric, excluding I, L, O, U).  
+   d. SSSSSS = Six-character sequence (alphanumeric, excluding I, L, O, U), allocated hierarchically within each journal-type branch.  
 2. Examples:  
    a. 82026TK3M2AB: Sector 8 (Technical), 2026, Standard-type, sequence K3M2AB;  
-   b. 42027RZZZZZZ1: Sector 4 (Legislation), 2027, Regulation-type, sequence ZZZZZZ, extension 1.  
+   b. 42026RL1B7CD: Sector 4 (Legislation), 2026, Regulation-type, sequence L1B7CD.  
 
 Article 5  
 Instrument Types and Legal Force  
 
 1. Instruments shall bear exactly one type code with corresponding legal effect:  
-   a. Code C - Charter: Constitutional supremacy; Mandatory Publication: Yes (Journal L);  
-   b. Code A - Agreement: Binding on signatory parties; Mandatory Publication: Yes (Journal L);  
-   c. Code S - Statute: Binding on OIDI organs/bodies; Mandatory Publication: Yes (Journal L);  
-   d. Code R - Regulation: Binding general application; Mandatory Publication: Yes (Journal L);  
-   e. Code D - Decision: Binding on specific addressees; Mandatory Publication: Conditional (Article 7);  
-   f. Code M - Mandate: Administrative authority; Mandatory Publication: Yes (Journal C);  
-   g. Code L - License: Contractual obligations; Mandatory Publication: Yes (Journal C);  
-   h. Code T - Standard: Recommended or mandatory by reference; Mandatory Publication: Yes (Journal T);  
-   i. Code P - Proposal: Non-binding; Mandatory Publication: No;  
-   j. Code N - Notice: Informational; Mandatory Publication: Yes (Journal C);  
-   k. Code O - Opinion: Non-binding interpretive guidance; Mandatory Publication: Yes (Journal C).  
+   a. Code C - Charter: Constitutional supremacy; Journal Series: L;  
+   b. Code A - Agreement: Binding on signatory parties; Journal Series: L;  
+   c. Code S - Statute: Binding on OIDI organs/bodies; Journal Series: L;  
+   d. Code R - Regulation: Binding general application; Journal Series: L;  
+   e. Code D - Decision: Binding on specific addressees; Journal Series: C;  
+   f. Code M - Mandate: Administrative authority; Journal Series: C;  
+   g. Code L - License: Contractual obligations; Journal Series: C;  
+   h. Code T - Standard: Recommended or mandatory by reference; Journal Series: T;  
+   i. Code P - Proposal: Non-binding; Journal Series: Internal;  
+   j. Code N - Notice: Informational; Journal Series: C;  
+   k. Code O - Opinion: Non-binding interpretive guidance; Journal Series: C.  
 2. Legal force is void without publication in the Official Journal per Article 7.  
 
 CHAPTER 3  
@@ -83,10 +83,10 @@ PUBLICATION AND LEGAL EFFECT
 Article 6  
 Official Journal Series  
 
-1. Three publication series are established:  
-   a. Series L: Binding instruments of general application; Access Requirement: Mandatory public search;  
-   b. Series C: Administrative and informational instruments; Access Requirement: Mandatory public search;  
-   c. Series T: Technical specifications and interoperability protocols; Access Requirement: Priority access for implementers.  
+1. Three publication series are established, hierarchically aligned with instrument types:  
+   a. Series L: Binding instruments of general application (Types C, A, S, R); Access Requirement: Mandatory public search;  
+   b. Series C: Administrative and informational instruments (Types D, M, L, N, O); Access Requirement: Mandatory public search;  
+   c. Series T: Technical specifications and interoperability protocols (Type T); Access Requirement: Priority access for implementers.  
 2. Publication constitutes formal promulgation. Entry into force occurs 20 days post-publication unless otherwise specified.  
 
 Article 7  
@@ -126,9 +126,8 @@ Amendment and Consolidation Protocol
 Article 10  
 Access and Transparency  
 
-1. All instruments with status "In Force" or "Adopted" shall be publicly accessible without authentication via the Registry.  
-2. Draft instruments (Sector 9, status "Drafting") shall be restricted to authorized OIDI personnel.  
-3. Programmatic access to the Registry shall be provided via standardized interfaces, including:  
+1. All instruments with status "In Force" or "Adopted" shall be publicly accessible without authentication via the Registry.    
+2. Programmatic access to the Registry shall be provided via standardized interfaces, including:  
    a. Machine-readable APIs with published specifications;  
    b. Feeds per Journal series in standard syndication formats;  
    c. Daily bulk exports in open data formats.  
@@ -141,17 +140,16 @@ Integration Principles
    a. Interoperability with internal systems;  
    b. Synchronization with external repositories through standardized protocols;  
    c. Verification of instrument authenticity and integrity.  
-3. Such specifications shall be published as Standards (Type T) in the Registry.  
+3. Such specifications may be published as Standards (Type T) in the Registry.  
 
 Article 12  
 Identifier Assignment Protocol  
 
-1. The Office of Legal Affairs shall assign IOID IDs according to:  
-   a. Sector: Determined by primary subject matter;  
-   b. Year: Calendar year of adoption;  
-   c. Type: Legal nature per Article 5;  
-   d. Sequence: Sequential allocation within each (Sector, Year, Type) triplet.  
-2. The sequence space (32^6 combinations per triplet) shall be monitored; overflow triggers Article 4(2).  
+1. The Office of Legal Affairs shall assign IOID IDs according to a strict hierarchical allocation:  
+   a. Sector determined first by subject matter;  
+   b. Journal series derived from Sector (per Article 6);  
+   c. Type code determined by legal nature within Journal series;  
+   d. Sequence allocated sequentially within each (Sector, Year, Type) branch.  
 
 Article 13  
 Lifecycle Management  
@@ -207,5 +205,5 @@ ADOPTED on 23 January 2026
 By the OIDI Secretariat  
 
 PUBLICATION: This instrument is published in the Official Journal as L1C00001A/2026 (12026C00001A).  
-STATUS: In Force from 1 February 2026.  
+STATUS: In Force from 1 March 2026.
 ```
