@@ -1,1 +1,1 @@
-# Public-Instrument-Registry
+# Public Instrument Registry
