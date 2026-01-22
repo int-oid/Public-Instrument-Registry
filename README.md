@@ -208,10 +208,9 @@ Entry into Force
 1. This Framework enters into force on 1 March 2026.  
 2. The Office of Legal Affairs shall publish implementation guidelines for the Registry by 15 February 2026.  
 
-ADOPTED at Geneva on 15 January 2026  
+ADOPTED on 23 January 2026  
 By the OIDI Secretariat  
-Pursuant to Article 7(3) of the OIDI Founding Charter (12025C00000A)  
 
-PUBLICATION: This instrument is published in the Official Journal L series as L1C00001A/2026 (12026C00001A).  
-STATUS: In Force from 1 March 2026.  
+PUBLICATION: This instrument is published in the Official Journal as L1C00001A/2026 (12026C00001A).  
+STATUS: In Force from 1 February 2026.  
 ```
