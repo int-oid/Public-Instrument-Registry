@@ -25,7 +25,7 @@ Definitions
 Article 2  
 Scope of Application  
 
-1. This Framework applies to all instruments adopted by OIDI organs after 1 January 2026.  
+1. This Framework applies to all instruments adopted by OIDI organs after 1 February 2026.
 2. Instruments predating this Framework shall be retrofitted with IOID IDs by the Office of Legal Affairs by 31 December 2026.  
 
 CHAPTER 2  
