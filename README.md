@@ -1,3 +1,4 @@
+```
 LEGAL ACT OF THE INTERNATIONAL ORGANIZATION FOR IDENTITY DOCUMENTS  
 ON THE ESTABLISHMENT OF THE PUBLIC INSTRUMENT REGISTRY  
 
@@ -5,7 +6,6 @@ PREAMBLE
 THE SECRETARIAT OF THE INTERNATIONAL ORGANIZATION FOR IDENTITY DOCUMENTS (OIDI),  
 RECOGNISING the imperative for transparent, machine-actionable legal instruments governing the operations of the Organization;  
 NOTING the need for unambiguous identification, citation, and relationship tracking across all instruments issued by the Organization;  
-PURSUANT to Article 7(3) of the OIDI Founding Charter (12025C00000A);  
 HEREBY ADOPTS this binding Framework for the Public Instrument Registry maintained by the Office of Legal Affairs.  
 
 CHAPTER 1  
@@ -214,4 +214,4 @@ Pursuant to Article 7(3) of the OIDI Founding Charter (12025C00000A)
 
 PUBLICATION: This instrument is published in the Official Journal L series as L1C00001A/2026 (12026C00001A).  
 STATUS: In Force from 1 March 2026.  
-AUTHENTIC TEXT: SHA-256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+```
