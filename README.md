@@ -56,12 +56,7 @@ Identifier System
    b. YYYY = Calendar year of adoption (four digits);  
    c. T = Type code (one uppercase letter from {A-H, J, K, M, N, P-T, V-Z});  
    d. SSSSSS = Six-character sequence (alphanumeric, excluding I, L, O, U).  
-2. Overflow Mechanism:  
-   a. Should the sequence space for a (Sector, Year, Type) triplet be exhausted:  
-      i. The identifier length extends to 13 characters by appending an extension digit E (0-9);  
-      ii. E increments only after SSSSSS reaches ZZZZZZ;  
-      iii. Systems shall accept both 12- and 13-character identifiers.  
-3. Examples:  
+2. Examples:  
    a. 82026TK3M2AB: Sector 8 (Technical), 2026, Standard-type, sequence K3M2AB;  
    b. 42027RZZZZZZ1: Sector 4 (Legislation), 2027, Regulation-type, sequence ZZZZZZ, extension 1.  
 
